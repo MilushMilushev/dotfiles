@@ -1,0 +1,91 @@
+#Configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+#Aliases
+alias source_dotfiles='source ~/dotfiles/bootstrap.sh'
+alias pbcopyl='xclip -selection clipboard'
+alias fresh='rm -rf node_modules/ package-lock.json && npm install'
+
+
+# Git details
+git config --global user.signingkey 1649271444DF81D6F64B620645AA451A96CCAEA4
+GIT_AUTHOR_NAME="MILUSH MILUSHEV"
+GIT_COMMITTER_NAME="MILUSH MILUSHEV"
+git config --global user.name "MILUSH MILUSHEV"
+GIT_AUTHOR_EMAIL="m.milushev@astoundcommerce.com"
+GIT_COMMITTER_EMAIL="$m.milushev@astoundcommerce.com"
+git config --global user.email "m.milushev@astoundcommerce.com"
+
+
+export LOCALPATH=~/code/projects
+# Projects
+alias 800="cd ${LOCALPATH}/imp-800/"
+alias base-react="cd ${LOCALPATH}/imp-base-react/"
+alias base="cd ${LOCALPATH}/imp-base/"
+alias bro="cd ${LOCALPATH}/imp-bro/"
+alias cha="cd ${LOCALPATH}/imp-cha/"
+alias ctr="cd ${LOCALPATH}/imp-ctr/"
+alias demo="cd ${LOCALPATH}/imp-demo/"
+alias ext="cd ${LOCALPATH}/imp-ext/"
+alias fen="cd ${LOCALPATH}/imp-fen/"
+alias fra="cd ${LOCALPATH}/imp-fra/"
+alias gtx="cd ${LOCALPATH}/imp-gtx/"
+alias hyd="cd ${LOCALPATH}/imp-hyd/"
+alias jcp="cd ${LOCALPATH}/imp-jcp/"
+alias ked="cd ${LOCALPATH}/imp-ked/"
+alias ken="cd ${LOCALPATH}/imp-ken/"
+alias kencharm="cd ${LOCALPATH}/imp-kencharm/"
+alias kor="cd ${LOCALPATH}/imp-kor/"
+alias lcr="cd ${LOCALPATH}/imp-lcr/"
+alias lil="cd ${LOCALPATH}/imp-lil/"
+alias llb="cd ${LOCALPATH}/imp-llb/"
+alias lou="cd ${LOCALPATH}/imp-lou/"
+alias lov="cd ${LOCALPATH}/imp-lov/"
+alias lux-oak="cd ${LOCALPATH}/imp-lux-oak/"
+alias lux-ray="cd ${LOCALPATH}/imp-lux-ray/"
+alias lux-sgh="cd ${LOCALPATH}/imp-lux-sgh/"
+alias lux-upc="cd ${LOCALPATH}/imp-lux-upc/"
+alias mad="cd ${LOCALPATH}/imp-mad/"
+alias mat="cd ${LOCALPATH}/imp-mat/"
+alias mms="cd ${LOCALPATH}/imp-mms/"
+alias mvi="cd ${LOCALPATH}/imp-mvi/"
+alias nix="cd ${LOCALPATH}/imp-nix/"
+alias nto="cd ${LOCALPATH}/imp-nto/"
+alias oak-archive="cd ${LOCALPATH}/imp-oak-archive/"
+alias oak="cd ${LOCALPATH}/imp-oak/"
+alias pin="cd ${LOCALPATH}/imp-pin/"
+alias pum="cd ${LOCALPATH}/imp-pum/"
+alias ral="cd ${LOCALPATH}/imp-ral/"
+alias ray="cd ${LOCALPATH}/imp-ray/"
+alias rbn-retail="cd ${LOCALPATH}/imp-rbn-retail/"
+alias rbn="cd ${LOCALPATH}/imp-rbn/"
+alias ree3="cd ${LOCALPATH}/imp-ree3/"
+alias ree="cd ${LOCALPATH}/imp-ree/"
+alias rfi="cd ${LOCALPATH}/imp-rfi/"
+alias sgh="cd ${LOCALPATH}/imp-sgh/"
+alias slt="cd ${LOCALPATH}/imp-slt/"
+alias spe="cd ${LOCALPATH}/imp-spe/"
+alias sta="cd ${LOCALPATH}/imp-sta/"
+alias tay="cd ${LOCALPATH}/imp-tay/"
+alias tim="cd ${LOCALPATH}/imp-tim/"
+alias tnf="cd ${LOCALPATH}/imp-tnf/"
+alias toolkit="cd ${LOCALPATH}/imp-toolkit/"
+alias tools-build="cd ${LOCALPATH}/imp-tools-build/"
+alias tools-logging="cd ${LOCALPATH}/imp-tools-logging/"
+alias tools-test="cd ${LOCALPATH}/imp-tools-test/"
+alias tools-lux="cd ${LOCALPATH}/imp-tools-lux/"
+alias tools-lux="cd ${LOCALPATH}/imp-tools-lux/"
+alias tools="cd ${LOCALPATH}/imp-configure-tools/"
+alias txii="cd ${LOCALPATH}/imp-txii/"
+alias ui-helpers="cd ${LOCALPATH}/imp-ui-helpers/"
+alias vans="cd ${LOCALPATH}/imp-vans/"
+alias wad="cd ${LOCALPATH}/imp-wad/"
+alias wil="cd ${LOCALPATH}/imp-wil/"
+alias wol="cd ${LOCALPATH}/imp-wol/"
+alias ycc="cd ${LOCALPATH}/imp-ycc/"
+
+
