@@ -9,6 +9,12 @@ export NVM_DIR="$HOME/.nvm"
 alias source_dotfiles='source ~/dotfiles/bootstrap.sh'
 alias pbcopyl='xclip -selection clipboard'
 alias fresh='rm -rf node_modules/ package-lock.json && npm install'
+alias dotfiles="cd ~/dotfiles/"
+
+# Using tools-tests
+alias testIntegrationVisible="TEST_DEVTOOLS=true TEST_SLOW=500 TEST_HEADLESS=false TEST_ALL_PRODUCTS=true TEST_TYPE=integration jest"
+alias testIntegrationAll="TEST_SLOW=200 TEST_ALL_PRODUCTS=true TEST_TYPE=integration jest"
+alias testIntegration="TEST_SLOW=200 TEST_TYPE=integration jest"
 
 
 # Git details
@@ -57,6 +63,7 @@ alias nix="cd ${LOCALPATH}/imp-nix/"
 alias nto="cd ${LOCALPATH}/imp-nto/"
 alias oak-archive="cd ${LOCALPATH}/imp-oak-archive/"
 alias oak="cd ${LOCALPATH}/imp-oak/"
+alias oak-retail="cd ${LOCALPATH}/imp-oak-retail/"
 alias pin="cd ${LOCALPATH}/imp-pin/"
 alias pum="cd ${LOCALPATH}/imp-pum/"
 alias ral="cd ${LOCALPATH}/imp-ral/"
