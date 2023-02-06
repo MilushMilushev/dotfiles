@@ -10,6 +10,9 @@ alias source_dotfiles='source ~/dotfiles/bootstrap.sh'
 alias pbcopyl='xclip -selection clipboard'
 alias fresh='rm -rf node_modules/ package-lock.json && npm install'
 alias dotfiles="cd ~/dotfiles/"
+alias vpnstart='sudo systemctl start openvpn@m.milushev-desktop'
+alias vpnstop='sudo systemctl stop openvpn@m.milushev-desktop'
+alias vpnstatus='systemctl status openvpn@m.milushev-desktop'
 
 # Using tools-tests
 alias testIntegrationVisible="TEST_DEVTOOLS=true TEST_SLOW=500 TEST_HEADLESS=false TEST_ALL_PRODUCTS=true TEST_TYPE=integration jest"
@@ -70,6 +73,7 @@ alias ral="cd ${LOCALPATH}/imp-ral/"
 alias ray="cd ${LOCALPATH}/imp-ray/"
 alias rbn-retail="cd ${LOCALPATH}/imp-rbn-retail/"
 alias rbn="cd ${LOCALPATH}/imp-rbn/"
+alias rayban="cd ${LOCALPATH}/imp-ray-ban/"
 alias ree3="cd ${LOCALPATH}/imp-ree3/"
 alias ree="cd ${LOCALPATH}/imp-ree/"
 alias rfi="cd ${LOCALPATH}/imp-rfi/"
@@ -94,5 +98,10 @@ alias wad="cd ${LOCALPATH}/imp-wad/"
 alias wil="cd ${LOCALPATH}/imp-wil/"
 alias wol="cd ${LOCALPATH}/imp-wol/"
 alias ycc="cd ${LOCALPATH}/imp-ycc/"
+alias ui-lux="cd ${LOCALPATH}/imp-ui-lux/"
+alias pwakit="cd ${LOCALPATH}/pwa-kit-demo/"
+alias pwakitpd="cd ${LOCALPATH}/pwakit-pd/"
 
 
+# alias httpserver="http-server --proxy http://localhost:8080/dist"
+alias httpserver="http-server -p 8080"
